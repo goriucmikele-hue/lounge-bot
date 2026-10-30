@@ -1,0 +1,7 @@
+.env
+.venv/
+profile/
+data/
+*.db
+__pycache__/
+edge-profile/
