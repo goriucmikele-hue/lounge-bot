@@ -5,3 +5,7 @@ data/
 *.db
 __pycache__/
 edge-profile/
+inspect_*.py
+probe_*.py
+test_*.py
+capture_*.py

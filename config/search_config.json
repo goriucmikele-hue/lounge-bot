@@ -1,0 +1,29 @@
+{
+  "default_preset": "nike",
+  "presets": {
+    "nb": {
+      "phrase": "new balance",
+      "brand": "new balance",
+      "model_terms": ["1906", "2002", "740", "530", "574", "9060", "327"],
+      "sizes": ["41", "41.5", "42"],
+      "category": "sneakers",
+      "max_lei": 500
+    },
+    "vans": {
+      "phrase": "vans",
+      "brand": "vans",
+      "model_terms": ["old skool", "classic", "authentic", "slip-on", "era", "sk8"],
+      "sizes": ["41", "41.5", "42"],
+      "category": "sneakers",
+      "max_lei": 500
+    },
+    "nike": {
+      "phrase": "nike",
+      "brand": "nike",
+      "model_terms": ["air max", "air force", "dunk", "blazer", "zoom", "pegasus", "vapor"],
+      "sizes": ["41", "41.5", "42"],
+      "category": "sneakers",
+      "max_lei": 500
+    }
+  }
+}

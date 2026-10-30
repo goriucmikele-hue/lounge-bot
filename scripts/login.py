@@ -10,15 +10,15 @@ def main():
     with sync_playwright() as p:
         ctx = p.chromium.launch_persistent_context(
             user_data_dir=str(PROFILE_DIR),
-            channel="msedge",  # sau "chrome" dacă ai Chrome instalat
+            channel="msedge",
             headless=False,
         )
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.goto("https://www.zalando-lounge.ro/")
-        input("Loghează-te în fereastră, apoi apasă Enter aici...")
+        input("Log in, then press Enter here...")
         ctx.close()
 
-    print("Sesiune salvată în:", PROFILE_DIR)
+    print("Session saved in:", PROFILE_DIR)
 
 
 if __name__ == "__main__":

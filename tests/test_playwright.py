@@ -6,8 +6,8 @@ def main():
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
         page.goto("https://www.zalando-lounge.ro/")
-        print("Titlu pagină:", page.title())
-        input("Dacă ai văzut fereastra și titlul, apasă Enter...")
+        print("Page title:", page.title())
+        input("If you saw the window and the title, press Enter...")
         browser.close()
 
 
